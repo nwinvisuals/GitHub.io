@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Minh-Tu Nguyen | Media Kit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Media kit for Minh-Tu Nguyen (@nwinvisuals) – cinematic content creator and filmmaker." />
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --card-bg: #ffffff;
+      --text-main: #111827;
+      --text-muted: #6b7280;
+      --accent: #111827;
+      --border-subtle: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+
+    header {
+      margin-bottom: 32px;
+    }
+
+    h1, h2 {
+      margin: 0;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      margin-bottom: 0.25rem;
+    }
+
+    h2 {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 32px;
+      margin-bottom: 10px;
+      letter-spacing: 0.16em;
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.96rem;
+    }
+
+    .tagline {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .intro {
+      margin-top: 16px;
+      max-width: 36rem;
+      font-size: 0.96rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 16px;
+    }
+
+    .grid-2 {
+      grid-template-columns: 1.4fr 1.2fr;
+      align-items: flex-start;
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    @media (max-width: 768px) {
+      .grid-2, .grid-3 {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .page {
+        padding-top: 24px;
+      }
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 14px;
+      padding: 14px 14px 12px;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .card-large {
+      padding: 18px 18px 16px;
+    }
+
+    .label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+    }
+
+    .big-number {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-top: 4px;
+    }
+
+    ul {
+      margin: 8px 0 0;
+      padding-left: 18px;
+      font-size: 0.94rem;
+    }
+
+    ul li + li {
+      margin-top: 4px;
+    }
+
+    .pills {
+      margin-top: 8px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      border: 1px solid var(--border-subtle);
+      background: #f9fafb;
+      color: var(--text-muted);
+      margin-right: 6px;
+      margin-bottom: 6px;
+      white-space: nowrap;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      padding-bottom: 1px;
+    }
+
+    a:hover {
+      border-bottom-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .contact p {
+      font-size: 0.95rem;
+    }
+
+    .footer {
+      margin-top: 32px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <!-- HERO -->
+    <header class="grid grid-2">
+      <div>
+        <h1>Minh-Tu Nguyen</h1>
+        <div class="tagline">@nwinvisuals · Cinematic content creator & filmmaker</div>
+        <p class="intro">
+          Full-time cinematic content creator specializing in short-form filmmaking,
+          tech storytelling, and visual atmospherics. I turn products into
+          clean, cinematic moments that feel authentic to my audience.
+        </p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="label">Instagram</div>
+          <div class="big-number">77k+ followers</div>
+        </div>
+        <div class="card">
+          <div class="label">TikTok</div>
+          <div class="big-number">110k+ followers</div>
+        </div>
+        <div class="card">
+          <div class="label">YouTube</div>
+          <div class="big-number">Growing shorts audience</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- AUDIENCE -->
+    <section>
+      <h2>Audience</h2>
+      <div class="grid grid-2">
+        <div class="card card-large">
+          <div class="label">Regions</div>
+          <p style="margin-top: 6px;">
+            Strong presence in:
+          </p>
+          <ul>
+            <li>United States</li>
+            <li>India</li>
+            <li>United Kingdom & Canada</li>
+            <li>Southeast Asia</li>
+          </ul>
+        </div>
+        <div class="card card-large">
+          <div class="label">Profile</div>
+          <p style="margin-top: 6px;">
+            Primarily 18–34, with a focus on:
+          </p>
+          <ul>
+            <li>Filmmakers and content creators</li>
+            <li>Tech and gear enthusiasts</li>
+            <li>Creative professionals and students</li>
+            <li>Early adopters of tools that improve workflow</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section>
+      <h2>Services & Deliverables</h2>
+      <div class="grid grid-2">
+        <div class="card card-large">
+          <div class="label">Core formats</div>
+          <ul>
+            <li>Instagram Reels (cinematic, educational, or product-focused)</li>
+            <li>TikTok videos (trend-aligned or cinematic micro-stories)</li>
+            <li>Instagram Stories (BTS, product highlights, narrative sequences)</li>
+            <li>YouTube Shorts (reviews, tutorials, or cinematic edits)</li>
+          </ul>
+        </div>
+        <div class="card card-large">
+          <div class="label">Add-ons</div>
+          <ul>
+            <li>BTS content packages</li>
+            <li>In-feed photo sets</li>
+            <li>Usage rights for paid media (Spark Ads / whitelisting)</li>
+            <li>Multi-video concepts and campaign sequencing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- STYLE -->
+    <section>
+      <h2>Content Style</h2>
+      <div class="card card-large">
+        <div class="label">What to expect</div>
+        <p style="margin-top: 6px;">
+          I focus on clean compositions, intentional lighting, and clear visual hooks
+          in the first seconds. Products are integrated into narrative moments rather
+          than feeling like separate ads. Sound design and subtle motion are used to
+          keep viewers engaged and watch time high.
+        </p>
+        <div class="pills">
+          <span class="pill">Cinematic short-form</span>
+          <span class="pill">Tech & gear storytelling</span>
+          <span class="pill">BTS & workflow</span>
+          <span class="pill">Creative transitions</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRANDS -->
+    <section>
+      <h2>Selected Brand Partners</h2>
+      <div class="card card-large">
+        <p>
+          Ulanzi · DJI · Insta360 · Bambu Lab · Anker · Crucial · Lenovo ·
+          RayNeo · Higgsfield AI · Wondershare · TOZO · OdinLake · and others.
+        </p>
+        <p style="margin-top: 6px; font-size: 0.9rem; color: var(--text-muted);">
+          Available for launch campaigns, hero content, and ongoing partnerships.
+        </p>
+      </div>
+    </section>
+
+    <!-- RATES -->
+    <section>
+      <h2>Rates & Availability</h2>
+      <div class="card card-large">
+        <p>
+          All projects are custom-quoted based on deliverables, timeline, usage,
+          and exclusivity. To receive a proposal, please include:
+        </p>
+        <ul>
+          <li>Product(s) and campaign goal</li>
+          <li>Preferred platform(s) and number of deliverables</li>
+          <li>Timeline and regions for content usage</li>
+          <li>Budget range (or range you’re exploring)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+      <h2>Contact</h2>
+      <div class="card card-large">
+        <p>
+          Email: <a href="mailto:nwinvisuals@gmail.com">nwinvisuals@gmail.com</a><br />
+          Instagram: <a href="https://instagram.com/nwinvisuals" target="_blank" rel="noopener">@nwinvisuals</a><br />
+          TikTok: <a href="https://www.tiktok.com/@nwinvisuals" target="_blank" rel="noopener">@nwinvisuals</a><br />
+          <!-- Adjust YouTube URL if different -->
+          YouTube: <a href="https://youtube.com/@nwin" target="_blank" rel="noopener">@nwin</a>
+        </p>
+      </div>
+    </section>
+
+    <div class="footer">
+      Updated 2025 · For full case studies or performance metrics, please reach out via email.
+    </div>
+  </div>
+</body>
+</html>
